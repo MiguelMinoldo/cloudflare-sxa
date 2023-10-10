@@ -1,5 +1,4 @@
 import { HealthcheckMiddleware } from '@sitecore-jss/sitecore-jss-nextjs/monitoring';
-export const runtime = 'experimental-edge';
 
 /**
  * This Next.js API route is used to handle healthz check request.
