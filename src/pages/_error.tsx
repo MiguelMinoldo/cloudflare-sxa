@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
+export const runtime = 'experimental-edge';
 
 interface ErrorPageProps {
   statusCode?: number | null | undefined;
