@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import { I18nProvider } from 'next-localization';
 import { SitecorePageProps } from 'lib/page-props';
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 import 'assets/main.scss';
 
